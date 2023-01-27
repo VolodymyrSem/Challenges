@@ -1,3 +1,9 @@
+# Write a function in Python that takes in a string that can have alphanumeric characters
+# in lower or upper case.
+#
+# The string can also contain any special characters handled in Morse code,
+# including commas, colons, apostrophes, periods, exclamation marks, and question marks.
+# The function should return the Morse code equivalent for the string.
 class Morse:
     __morse_dict = {
         "A": "·-", "B": "-···", "C": "-·-·",
@@ -53,5 +59,3 @@ while var:
 
 code_obj = Morse(code)
 print(code_obj)
-
-

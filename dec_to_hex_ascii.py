@@ -10,5 +10,5 @@ def dec_to_hex(text):
     return result
 
 
-inp = "My name is Alex"
+inp = "My name is Ben"
 print(dec_to_hex(inp))
